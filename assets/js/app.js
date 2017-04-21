@@ -71,7 +71,8 @@ img1.setAttribute("class","sprite");
 img1.setAttribute("id","foto1");
 var texto1 = document.createElement("div");
 texto1.setAttribute("id","texto-foto1");
-img1.appendChild(texto1);
+texto1.innerText = "Los colaboradores eficaces han documentado su relato en caso Lava Jato"
+new1.appendChild(texto1);
 new1.appendChild(img1);
 var new2 = document.createElement("div");
 new2.setAttribute("class","img-news");

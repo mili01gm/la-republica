@@ -118,11 +118,20 @@ header {
 }
 
 #foto1,#foto2,#foto3,#img1,#img2,#img3 {
-  background-image: url("../img/images/sprite1.png");
+  background-image: url("../img/images/sprite2.png");
   background-repeat: no-repeat;
+  background-size: 800px 600px;
 }
 
+#texto1,#texto2,#texto3,#text1,#text2,#text3 {
+  background-color: #333;
+  color: white;
+  font-weight: 500;
+  text-align: left;
+}
 #foto1 {
+  display: inline-block;
   height: 200px;
-  background-position: -31px -27px;
+  background-position: 0 0;
+  width: 350px;
 }
